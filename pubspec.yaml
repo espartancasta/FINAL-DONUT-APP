@@ -1,0 +1,32 @@
+name: donut_app_2c_gaxiola
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: "^3.6.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.13.5
+  firebase_storage: ^11.7.7  # Ajusta firebase_storage a una versión compatible
+  image_picker: ^0.8.5+3
+
+  cupertino_icons: ^1.0.8
+  flutter_application_1: ^0.0.2
+  provider: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/
+    - lib/icons/
